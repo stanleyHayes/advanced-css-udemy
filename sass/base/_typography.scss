@@ -3,7 +3,7 @@
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 6rem;
-    .heading-primary--main {
+    &--main {
         display: block;
         font-size: 6rem;
         font-weight: 400;
@@ -14,7 +14,7 @@
         *animation-iteration-count: 3;
         */
     }
-    .heading-primary--sub {
+    &--sub {
         display: block;
         font-size: 2rem;
         font-weight: 700;
